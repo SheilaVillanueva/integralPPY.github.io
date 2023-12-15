@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(168, 192, 181);
+    color: aliceblue;
+    text-align: center;
+}
+
+#cajita {
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(43, 77, 65);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+input {
+    width: 65%;
+    padding: 12px 15px;
+    border: black;
+    background-color: rgb(168, 192, 181);
+    border-radius: 30px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: rgb(168, 192, 181);
+    border: 1px solid #000000;
+    color: rgb(43, 77, 65);
+    text-transform: uppercase;
+    transition: transform 20ms ease-in;
+    margin-top: 10%;
+}
+
+.form-check {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form-check input {
+    width: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form-check {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contenedor {
+    margin-top: 20%;
+
+}
+
+.tabla {
+    border: 2px solid rgb(43, 77, 65);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla th,.tabla td {
+    align-items: center;
+    border: 2px solid rgb(43, 77, 65);
+    padding: 8px;
+    color: darkslategrey;
+    ;
+}
+
+.tabla th{
+    font-weight: bolder;
+    font-size: 28px;
+    
+}
+
+.tabla th:nth-child(2),
+.tabla td:nth-child(2),
+.tabla th:nth-child(3),
+.tabla td:nth-child(3),
+.tabla th:nth-child(4),
+.tabla td:nth-child(4) {
+    width: 100px;
+    /* Ajusta el ancho según tus necesidades */
+}
