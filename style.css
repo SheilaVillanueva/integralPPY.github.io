@@ -14,8 +14,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     background-color: rgb(43, 77, 65);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-        0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 input {
@@ -55,37 +54,35 @@ button {
     margin-top: 10px;
 }
 
-#contenedor {
-    margin-top: 20%;
-
+#table-container {
+    margin-top: 20px;
 }
 
-.tabla {
+.table {
     border: 2px solid rgb(43, 77, 65);
     border-collapse: collapse;
     width: 100%;
 }
 
-.tabla th,.tabla td {
+.table th,
+.table td {
     align-items: center;
     border: 2px solid rgb(43, 77, 65);
     padding: 8px;
     color: darkslategrey;
-    ;
 }
 
-.tabla th{
+.table th {
     font-weight: bolder;
     font-size: 28px;
-    
 }
 
-.tabla th:nth-child(2),
-.tabla td:nth-child(2),
-.tabla th:nth-child(3),
-.tabla td:nth-child(3),
-.tabla th:nth-child(4),
-.tabla td:nth-child(4) {
+.table th:nth-child(2),
+.table td:nth-child(2),
+.table th:nth-child(3),
+.table td:nth-child(3),
+.table th:nth-child(4),
+.table td:nth-child(4) {
     width: 100px;
-    /* Ajusta el ancho según tus necesidades */
 }
+

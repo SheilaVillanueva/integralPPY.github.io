@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Integral PPY</title>
-    <script src="script.js" defer></script>
+    <script src="login.js" defer></script>
 </head>
 
 <body>
@@ -20,16 +21,13 @@
                 <label for="exampleInputPassword1">Contraseña</label> <br>
                 <input id="contraseña" placeholder="Ingresa tu contraseña"><br>
             </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <small class="form-check-label" for="exampleCheck1">Recordar contraseña</small><br><br>
-            </div>
-            <button type="submit" id="Ingresa">Iniciar Sesion</button>
+            <p id="mensaje"></p>
+            <button type="button" id="Ingresa">Iniciar Sesion</button>
         </div>
     </form>
+    <div id="table-container">
+        <table class="table" id="table"></table>
+    </div>
 </body>
-
-
-
 
 </html>
